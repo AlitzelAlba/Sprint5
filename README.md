@@ -30,14 +30,14 @@ En la parte de abajo cuenta con dos botones para seleccionar o añadirla a favor
 # 6. Proceso que se siguió para realizarlo
 
 # 7. Tabla con Sprint Review
-|        ¿Qué salio bien?        |       ¿Qué puedo hacer diferente?      | ¿Qué no salio bien? 
-|--------------------------------|----------------------------------------|---------------------
-|El menú con los genros añadidos |Organizar mejor el código,              |1. Primeramente el diseño
-                                 |porque en algun punto tenía lineas que  |2. Hacer interactiva la barra de busqueda
-                                 |ya no se necesitaban                    |3. Organización de archivos para enlazarlosentre si                    
-                                 |Planificar de mejor forma como implentar|4. Considero que la página podia ser mas funcional en 
-                                 |el código porque al final ya no sabía   |cuestion de la barra de tareas
-                                 |para que había creado algunas archivos  |5. Aunque pareca que el apartado de género funciona
-                                                                              parcialmente bien, creo que en algún punto puede 
-                                                                              colapsar.
-                                                                         
+|        ¿Qué salio bien?        |       ¿Qué puedo hacer diferente?      |                   ¿Qué no salio bien?               |
+|--------------------------------|----------------------------------------|-----------------------------------------------------|
+|El menú con los genros añadidos |Organizar mejor el código,              |1. Primeramente el diseño                            |
+|                                |porque en algun punto tenía lineas que  |2. Hacer interactiva la barra de busqueda            |
+|                                |ya no se necesitaban                    |3. Organización de archivos para enlazarlosentre si  |                 
+|                                |Planificar de mejor forma como implentar|4. Considero que la página podia ser mas funcional en| 
+|                                |el código porque al final ya no sabía   |cuestion de la barra de tareas                       |
+|                                |para que había creado algunas archivos  |5. Aunque pareca que el apartado de género funciona  |
+|                                |                                        |   parcialmente bien, creo que en algún punto puede  |
+|                                |                                        |   colapsar.
+                                                                        
