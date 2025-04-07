@@ -11,6 +11,19 @@ Desde el archivo index.html se enlazó un archivo JavaScript (script.js) encarga
 ![image](https://github.com/user-attachments/assets/366a22b8-1157-4c57-8dbc-623dc75f7552)
 
 # 5. Capturas de pantalla
+Visualización de la página inicial, la cual contiene el nombre de la plataforma "Caricaturas clásicas" a lado de ella se encuentran la barra de tareas, donde se podrá seleccionar según sea el interes.
+![image](https://github.com/user-attachments/assets/55724c79-e78f-48ca-a660-ca65e9cfe903)
+
+En el apartado de generos, despliega los dos generos añadidos, en este se puede elegir el género de interes.
+![image](https://github.com/user-attachments/assets/5730506e-7627-4087-9cfe-d2fa9c0285af)
+
+Al presionar la tecla con el género deseado, este manda al usuario a una página donde se muestran las caricaturas relacionadas con el género.
+![image](https://github.com/user-attachments/assets/66a0c6b4-80d5-4c80-b837-be3dde1d0f75)
+
+
+![image](https://github.com/user-attachments/assets/ed9d6d9f-6cd2-4908-84b8-96d385e1ae21)
+
+
 
 # 6. Proceso que se siguió para realizarlo
 
