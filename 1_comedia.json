@@ -1,0 +1,10 @@
+{
+    "data":
+    [
+        {"nombre": "Los Supersónicos", 
+        "descripcion": "Es una serie animada ambientada en un futuro utópico donde la tecnología ha transformado por completo la vida cotidiana. La historia sigue a la familia Supersónico, compuesta por George (el padre), Jane (la madre), Judy (la hija adolescente), Elroy (el hijo pequeño), su perro Astro y la robot doméstica Rosie. A través de situaciones cómicas y satíricas, la serie explora temas familiares, laborales y sociales, todo dentro de un mundo lleno de autos voladores, casas flotantes y dispositivos tecnológicos avanzados. A pesar del entorno futurista, los problemas y conflictos de la familia son muy similares a los de cualquier hogar moderno.",
+        "imagen": "imagenes/Supersonicos.jpg"
+    }
+        
+    ]
+}

@@ -1,17 +1,75 @@
+/*Estilos de la barra*/
+
 .nav{
     background-color: #b00089;
+    padding: 10px;
 }
+/* Estilo de los botones de la barra*/
 .btn{
     color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+/* Estilo para el nombre de nuestra pagina dentro de la barra*/
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: left;
 }
-
+/*Estilo debajo de la barra para preguntar que le gustaria ver hoy*/
 h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 30px 0;
 }
-
+/* Este estilo de barra, es para la barra de busqueda */
 .barra{
     text-align: center;
 }
+
+/*Estilo de contenido dentro de la pagina de generos*/
+.pagina-container {
+  display: flex;
+  flex-wrap: wrap; /* Acomodo automatico si son varias caricaturas*/
+  gap: 30px; /* Espacio entre img con descripción */
+  padding: 0; /* Quita padding del <ul> */
+}
+
+/*Estilos de las caricaturas*/
+
+.pagina img {
+  width: 50%;
+  padding: 2rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*Titulo dentro del genero*/
+.pagina h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Estilo de la descripción*/
+.pagina p {
+  font-size: 0.9em;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+
+/*Estilo de los botones dentro del genero*/
+
+.btn-ver {
+  background-color: #37879c; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.btn-favorito {
+  background-color: #a7392a; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+
+
+

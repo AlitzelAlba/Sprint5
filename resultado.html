@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Caricaturas del género seleccionado</h1>
+    <ul id="resultadoLista" class="pagina-container"></ul>
+
+    
+  <script>
+    // Función para obtener parámetros de la URL
+    function obtenerParametro(param) {
+      let urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Obtener el nombre del archivo JSON desde la URL
+    let archivo = obtenerParametro('archivo');
+    if (archivo) {
+      fetch(archivo)
+        .then(response => response.json())
+        .then(data => {
+          let lista = document.getElementById('resultadoLista');
+          data.data.forEach(item => {
+            let li = document.createElement('li');
+           
+            li.innerHTML = `
+            <div class="pagina">
+                <h3>${item.nombre}</h3>
+                <img src="${item.imagen}" alt="${item.nombre}">
+                <br>
+                <p> ${item.descripcion}</p>
+                
+                <div class"pagina-btn">
+                    <button class="pagina btn-ver">Ver</button>
+                    <button class="pagina btn-favorito">Favorito</button>
+                </div>
+            </div>
+            `
+            ;
+            lista.appendChild(li);
+          });
+        })
+    }
+  </script>
+</body>
+</html>
