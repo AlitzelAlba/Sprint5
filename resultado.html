@@ -18,33 +18,74 @@
     }
 
     // Obtener el nombre del archivo JSON desde la URL
-    let archivo = obtenerParametro('archivo');
+    let archivo = obtenerParametro("archivo");
     if (archivo) {
       fetch(archivo)
         .then(response => response.json())
         .then(data => {
-          let lista = document.getElementById('resultadoLista');
-          data.data.forEach(item => {
-            let li = document.createElement('li');
-           
+          let lista = document.getElementById("resultadoLista");
+          data.data.forEach(pelicula => {
+            //Declaración de cada una de las clases
+            let li = document.createElement("li");
+            li.classList.add("li-md-4");
+
+            let Pagina = document.createElement("div");
+            Pagina.classList.add("pagina");
+
+            let imagen = document.createElement("img");
+            img.src = pelicula.imagen;
+            img.alt = pelicula.nombre;
+            divPagina.appendChild(imagen)
+
+            let titulo = document.createElement("h3");
+            titulo.textContent = pelicula.nombre;
+            Pagina.appendChild(titulo);
+
+            let descripcion = document.createElement("p");
+            descripcion.textContent = pelicula.descripcion;
+            Pagina.appendChild(descripcion);
+
+            let divBotones = document.createElement("div");
+            Botones.classList.add(pagina-btn);
+
+            let btnVer = document.createElement("button");
+            btnver.classList.add("pagina", "btn-Ver");
+            btnVer.textContent = "Ver";
+
+            let btnFavorito = document.createElement("button");
+            btnFavorito.classList.add("paagina", "btn-favorito");
+            btnFavorito.textContent = "Favorito";
+            Botones.appendChild(btnVer);
+            Botones.appendChild(btnFavorito);
+            Pagina.appendChild(Botones);
+
+            /*
             li.innerHTML = `
             <div class="pagina">
-                <h3>${item.nombre}</h3>
-                <img src="${item.imagen}" alt="${item.nombre}">
+                <h3>${pelicula.nombre}</h3>
+                <img src="${pelicula.imagen}" alt="${pelicula.nombre}">
                 <br>
-                <p> ${item.descripcion}</p>
+                <p> ${pelicula.descripcion}</p>
                 
-                <div class"pagina-btn">
+                <div class="pagina-btn">
                     <button class="pagina btn-ver">Ver</button>
                     <button class="pagina btn-favorito">Favorito</button>
                 </div>
             </div>
             `
-            ;
+            ;*/
+            return let;
+            li.appendChild(divPagina);
             lista.appendChild(li);
           });
         })
-    }
+      }
+      
+      function sanitize(texto){
+        let elemento = document.createElement("div");
+        elemento.textContent = texto;
+        return elemento.innerHTML;
+      }
   </script>
 </body>
 </html>

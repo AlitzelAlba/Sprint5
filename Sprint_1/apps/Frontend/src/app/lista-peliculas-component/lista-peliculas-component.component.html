@@ -1,0 +1,47 @@
+<h1>Caricaturas del género seleccionado</h1>
+<h1 class="text-center my-4">Caricaturas del género seleccionado</h1>
+
+<div class="container">
+  <div *ngIf="peliculas.length; else sinResultados">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" *ngFor="let pelicula of peliculas">
+        <div class="card h-100">
+          <img [src]="'/assets/' + pelicula.imagen" [alt]="pelicula.nombre" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">{{ pelicula.nombre }}</h5>
+            <p class="card-text">{{ pelicula.descripcion }}</p>
+          </div>
+          <div class="card-footer d-flex justify-content-between">
+            <button class="btn btn-primary">Ver</button>
+            <button class="btn btn-warning">Favorito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #sinResultados>
+    <p class="text-center">No se encontraron caricaturas para este género.</p>
+  </ng-template>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

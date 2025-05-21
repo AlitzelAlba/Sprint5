@@ -1,0 +1,28 @@
+@import "~bootstrap/dist/css/bootstrap-grid.min.css";
+/*Estilos de la barra*/
+.nav{
+    background-color: #b00089;
+    padding: 10px;
+}
+/* Estilo de los botones de la barra*/
+.btn{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+/* Estilo para el nombre de nuestra pagina dentro de la barra*/
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: left;
+}
+/*Estilo debajo de la barra para preguntar que le gustaria ver hoy*/
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 30px 0;
+}
+/* Este estilo de barra, es para la barra de busqueda */
+.barra{
+    text-align: center;
+}
+
