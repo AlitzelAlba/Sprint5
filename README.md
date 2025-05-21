@@ -45,15 +45,18 @@ En cuanto al frontend, se utilizó Angular para crear una interfaz clara y amiga
 Se tuvo especial cuidado en asegurar que los nombres de los campos enviados coincidieran exactamente con los requeridos por el backend (email, password, Name), lo que permitió una correcta integración y un registro exitoso del usuario. Finalmente, se agregaron mensajes de éxito o error para notificar al usuario sobre el resultado del registro.
 
 # 9. Reporte de Code Coverage y reporte de testing
+![Captura de pantalla 2025-05-06 021530](https://github.com/user-attachments/assets/58041f20-f69b-43e4-ab23-da69d2b6b132)
+![Captura de pantalla 2025-05-06 021151](https://github.com/user-attachments/assets/5bae6a5d-7cc8-4c27-9cbd-161adcde9d7b)
 
 # 10. Diagrama de entidad-relación
 ![Captura de pantalla 2025-05-20 134446](https://github.com/user-attachments/assets/85ae0a85-bcd7-4937-abf3-8425aa386e3b)
 # 11. Problemas conocidos
-
+Aun tengo problemas con algunos de mis test
 # 12. Retrospectiva
 ¿Que hice bien?
-
+Ya logre vincular mis json con mis componentes, de igual forma logre mejorar un poco el estilo, respecto a la base de datos salio bien, se puede iniciar sesión y registrar usuario
 ¿Qué no salio bien?
-
+Al querer subir los cambios al repo utilice mal un comando y ya no podia subir mi repo a git, por poco y pierdo el avance de igual forma se borraron archivos que tuve que recuperar, respecto a los test aun no los tengo completos
 ¿Qué puedo hacer diferente?
+Subir bien mi repo a git cada que haga un cambio, no esperarme al final, verificar que ningun archivo que no se tenga que subir se vea reflejado en el repo, mejorar la estructura de mi pagina, añadir la bd para favoritos.
       
