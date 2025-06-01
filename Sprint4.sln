@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sprint_1", "Sprint_1", "{3CEBA73B-29C9-B8E4-6FF4-896466A3176B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{2B28E1FB-B3F0-5D6D-787C-E0DE5C36BEDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{C25977E7-9FCD-ACCF-25CB-918C9257EF77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cartoonsBack", "Sprint_1\apps\backend\cartoonsBack\cartoonsBack.csproj", "{31BC1A6A-B1ED-51B2-F914-9468263E2087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31BC1A6A-B1ED-51B2-F914-9468263E2087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BC1A6A-B1ED-51B2-F914-9468263E2087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BC1A6A-B1ED-51B2-F914-9468263E2087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BC1A6A-B1ED-51B2-F914-9468263E2087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B28E1FB-B3F0-5D6D-787C-E0DE5C36BEDD} = {3CEBA73B-29C9-B8E4-6FF4-896466A3176B}
+		{C25977E7-9FCD-ACCF-25CB-918C9257EF77} = {2B28E1FB-B3F0-5D6D-787C-E0DE5C36BEDD}
+		{31BC1A6A-B1ED-51B2-F914-9468263E2087} = {C25977E7-9FCD-ACCF-25CB-918C9257EF77}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81016275-8A77-45E5-8564-46DD47DB20B6}
+	EndGlobalSection
+EndGlobal
