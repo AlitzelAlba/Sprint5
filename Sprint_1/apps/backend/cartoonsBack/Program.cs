@@ -17,6 +17,7 @@ builder.Services.AddDbContext<CartoonsDbContext>(options =>
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 DotNetEnv.Env.Load();
 var secretKey = Environment.GetEnvironmentVariable("JWT_SECRET_KEY");
@@ -62,6 +63,12 @@ builder.Services.AddCors(options =>
 
 
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseHttpsRedirection();
 

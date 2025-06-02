@@ -1,4 +1,3 @@
-
 -- Creacion de tabla de favoritos
 
 USE c_clasicDB;

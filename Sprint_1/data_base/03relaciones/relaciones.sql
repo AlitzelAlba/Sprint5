@@ -1,4 +1,3 @@
-
 -- Creacion de Foreign Key Favoritos
 
 USE c_clasicDB;

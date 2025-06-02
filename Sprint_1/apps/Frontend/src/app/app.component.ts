@@ -10,6 +10,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Sprint_1';
+  title = 'Sprint1';
 }
 
