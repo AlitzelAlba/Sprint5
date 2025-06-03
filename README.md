@@ -89,7 +89,7 @@ Lines        : 64.47% ( 49/76 )
 ![Captura de pantalla 2025-06-02 001843](https://github.com/user-attachments/assets/34d71b39-ac04-4abb-b896-4aa258e0966c)
 
 # 13. Problemas conocidos 
-De los problemas anteriores considero que ya quedaron solucionados, solo faltaría el terminar de conectar mi base de datos para consumir el contenido de cartoons desde ahí mismo, al igual de configurar el boton de favoritos.
+De los problemas anteriores considero que ya quedaron solucionados, solo faltaría el terminar de conectar mi base de datos para consumir el contenido de cartoons desde ahí mismo, al igual de configurar el boton de favoritos. Tambien falta la implementación correcta de los recursos visuales.
 
 # 14. Retrospectiva
 ¿Qué hice bien?
